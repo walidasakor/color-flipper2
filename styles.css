@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0px auto;
+    text-align: center;
+    background: whitesmoke;
+}
+.nav-bar{
+    /* border-bottom: 2px ridge; */
+    position: sticky;
+    box-shadow: 1px 1px 10px;
+    background: white;
+}
+.nav-bar ul{
+    margin-left: 60px;
+}
+.nav-bar li{
+    display: inline-block;
+    list-style: none;
+    padding: 15px 30px;
+}
+.nav-bar li:first-child{
+    margin-left: 50px;
+}
+.nav-bar h4{
+    position: absolute;
+    font-size:15px;
+    padding: 15px;
+    color: rgb(233, 27, 154);
+    text-transform: capitalize;
+}
+.nav-bar li a{
+    text-decoration: none;
+    font-size: 14px;
+    color: black;
+    text-transform: capitalize;
+}
+.background{
+    text-align: center;
+    margin: 180px auto 0px auto;
+    background-color: rgb(100, 97, 99);
+    width: 100%;
+    padding: 40px;
+    border-radius: 8px;
+    font-size: 28px;
+    color: black;
+    border: 2px solid whitesmoke;
+    text-decoration-style: dashed;
+}
+button{
+    position: relative;
+    margin-top: 50px;
+    padding: 10px 20px;
+    font-size: larger;
+    border: 3px solid black;
+    border-radius: 4px;
+    background: transparent;
+    font-weight: bolder;
+    box-shadow: 1px 1px 4px;
+    
+}
+button:active{
+    background: white;
+    top: 4px;
+    left:-4px;
+    transition: all 0.3s ease;
+}
+h3{
+    color: white;
+}
